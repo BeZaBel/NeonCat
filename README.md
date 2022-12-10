@@ -1,7 +1,6 @@
 ### Dependencies
 
 - [Polybar](https://github.com/polybar/polybar)
-- [Dunst](https://github.com/dunst-project/dunst)
 - [Conky](https://github.com/brndnmtthws/conky)
 - [Alacritty](https://github.com/alacritty/alacritty)
 
