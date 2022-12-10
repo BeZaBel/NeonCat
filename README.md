@@ -10,6 +10,8 @@
 - [Font Awesome](https://fontawesome.com/)
 - [Siji](https://github.com/stark/siji)
 
+- Fish Prompt: [fishblocks](https://github.com/manilarome/fishblocks)
+
 Based on Catppuccin Mocha colorscheme.
 
 The Alacritty config replaces any present config in a non-destructive way.
@@ -20,5 +22,4 @@ Rofi configuration is just [Catppuccin Mocha config](https://github.com/catppucc
 
 ```
 Picom and GLava config not included.
-Also, not included the fish prompt.
 ```
