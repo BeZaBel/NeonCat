@@ -17,3 +17,7 @@ The Alacritty config replaces any present config in a non-destructive way.
 Rofi configuration is just [Catppuccin Mocha config](https://github.com/catppuccin/rofi).
 
 ![](preview.png)
+
+```
+Picom and GLava themes not included.
+```
