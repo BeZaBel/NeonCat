@@ -19,5 +19,5 @@ Rofi configuration is just [Catppuccin Mocha config](https://github.com/catppucc
 ![](preview.png)
 
 ```
-Picom and GLava themes not included.
+Picom and GLava config not included.
 ```
