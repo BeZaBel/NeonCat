@@ -20,4 +20,5 @@ Rofi configuration is just [Catppuccin Mocha config](https://github.com/catppucc
 
 ```
 Picom and GLava config not included.
+Also, not included the fish prompt.
 ```
