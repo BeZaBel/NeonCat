@@ -10,7 +10,7 @@
 - [Font Awesome](https://fontawesome.com/)
 - [Siji](https://github.com/stark/siji)
 
-- Fish Prompt: [fishblocks](https://github.com/manilarome/fishblocks)
+> Fish Prompt: [fishblocks](https://github.com/manilarome/fishblocks)
 
 Based on Catppuccin Mocha colorscheme.
 
