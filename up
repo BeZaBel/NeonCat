@@ -43,6 +43,8 @@ fi
 
 cp "$SCRIPTPATH/alacritty/alacritty.yml" $ALACRITTYDIR
 
+$SCRIPTPATH/scripts/dual-mon.sh &
+
 # Boot polybar
 if [ -x "$(command -v polybar)" ]; then
   $SCRIPTPATH/polybar/launch.sh
