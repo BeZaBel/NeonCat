@@ -17,12 +17,13 @@ leftwm-command "LoadTheme $SCRIPTPATH/theme.ron"
 #if [ -x "$(command -v feh)" ]; then
 #    feh --bg-fill --randomize $SCRIPTPATH/wallpapers/
 #fi
-~/.fehbg
 
 # Boot picom if it exists
 if [ -x "$(command -v picom)" ]; then
   picom &> /dev/null &
 fi
+
+~/.fehbg &
 
 # Launch conky with config
 if [ -x "$(command -v conky)" ]; then
