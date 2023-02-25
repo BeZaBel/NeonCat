@@ -37,8 +37,8 @@ if [ ! -d "$ALACRITTYDIR" ]; then
     mkdir -p $ALACRITTYDIR
 fi
 
-if [ -f "$ALACRITTYDIR/alacritty.yml" ]; then
-    mv "$ALACRITTYDIR/alacritty.yml" "$ALACRITTYDIR/alacritty.yml.old"
+if [ -f "$ALACRITTYDIR/alacritty/alacritty.yml" ]; then
+    mv "$ALACRITTYDIR/alacritty/alacritty.yml" "$ALACRITTYDIR/alacritty.yml.old"
 fi
 
 cp "$SCRIPTPATH/alacritty.yml" $ALACRITTYDIR
