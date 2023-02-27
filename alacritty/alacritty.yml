@@ -1,3 +1,10 @@
+shell:
+  program: /usr/bin/bash
+  args:
+    - -l
+    - -c
+    - zellij
+
 window:
   dimensions:
     columns: 100
@@ -6,11 +13,11 @@ window:
     x: 25 
     y: 25 
   dynamic_padding: true
-  opacity: 0.9
+  opacity: 0.94
 
 font:
   normal:
-    family: JetBrains Mono
+    family: SpaceMono Nerd Font Mono
   size: 11
 
 cursor:
