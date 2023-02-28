@@ -17,7 +17,7 @@ You can use the included script as is or comment out the relevant portion in the
 - [Nerd Fonts](https://www.nerdfonts.com/)
 - [Font Awesome](https://fontawesome.com/)
 
-> Not included but highly recommended
+#### Not included but highly recommended
 
 > Fish Prompt: [fishblocks](https://github.com/manilarome/fishblocks)
 
