@@ -13,17 +13,15 @@ ln -s ${SCRIPTPATH}/down /tmp/leftwm-theme-down
 # Set the theme
 leftwm-command "LoadTheme $SCRIPTPATH/theme.ron"
 
-# Set background
-#if [ -x "$(command -v feh)" ]; then
-#    feh --bg-fill --randomize $SCRIPTPATH/wallpapers/
-#fi
-
 # Boot picom if it exists
 if [ -x "$(command -v picom)" ]; then
   picom &> /dev/null &
 fi
 
-~/.fehbg &
+# Set random background
+if [ -x "$(command -v feh)" ]; then
+    feh --bg-fill --randomize $SCRIPTPATH/wallpapers/
+fi
 
 # Launch conky with config
 if [ -x "$(command -v conky)" ]; then
@@ -44,6 +42,7 @@ fi
 
 cp "$SCRIPTPATH/alacritty/alacritty.yml" $ALACRITTYDIR
 
+# Dual monitor Setup
 $SCRIPTPATH/scripts/dual-mon.sh &
 
 # Boot polybar
