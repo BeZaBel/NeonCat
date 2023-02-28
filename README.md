@@ -11,6 +11,7 @@ You can use the included script as is or comment out the relevant portion in the
 - [Conky](https://github.com/brndnmtthws/conky)
 - [Alacritty](https://github.com/alacritty/alacritty)
 - [Feh](https://feh.finalrewind.org/)
+- [Zellij](https://zellij.dev/)
 
 #### Fonts
 
@@ -19,7 +20,7 @@ You can use the included script as is or comment out the relevant portion in the
 
 #### Not included but highly recommended
 
-> Fish Prompt: [fishblocks](https://github.com/manilarome/fishblocks)
+- Fish Prompt: [fishblocks](https://github.com/manilarome/fishblocks)
 
 Based on Catppuccin Mocha colorscheme.
 
@@ -29,6 +30,3 @@ Rofi configuration is just [Catppuccin Mocha config](https://github.com/catppucc
 
 ![](preview.png)
 
-```
-Picom and GLava config not included.
-```
