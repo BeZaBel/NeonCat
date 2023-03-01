@@ -6,6 +6,8 @@ You can use the included script as is or comment out the relevant portion in the
 
 The Zellij config is basically the default one with slight modifications for theme and a couple of keybindings.
 
+Laptop-config branch contains a battery module for polybar and doesn't include dual monitor setup script for xrandr.
+
 ### Dependencies
 
 - [Xrandr](https://xorg.freedesktop.org/)
