@@ -17,8 +17,8 @@ window:
 
 font:
   normal:
-    family: SpaceMono Nerd Font Mono
-  size: 11
+    family: Cascadia Code
+  size: 10
 
 cursor:
   style: Block
