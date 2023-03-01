@@ -18,7 +18,7 @@ window:
 font:
   normal:
     family: SpaceMono Nerd Font Mono
-  size: 11
+  size: 10
 
 cursor:
   style: Block
