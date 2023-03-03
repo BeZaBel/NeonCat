@@ -17,7 +17,7 @@ window:
 
 font:
   normal:
-    family: Cascadia Code
+    family: SFMono
   size: 11
 
 cursor:
