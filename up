@@ -13,6 +13,9 @@ ln -s ${SCRIPTPATH}/down /tmp/leftwm-theme-down
 # Set the theme
 leftwm-command "LoadTheme $SCRIPTPATH/theme.ron"
 
+# Dual monitor Setup
+$SCRIPTPATH/scripts/dual-mon.sh &
+
 # Boot picom if it exists
 if [ -x "$(command -v picom)" ]; then
   picom &> /dev/null &
@@ -37,8 +40,7 @@ fi
 
 cp "$SCRIPTPATH/alacritty/alacritty.yml" $ALACRITTYDIR
 
-# Dual monitor Setup
-$SCRIPTPATH/scripts/dual-mon.sh &
+~/.fehbg &
 
 # Boot polybar
 if [ -x "$(command -v polybar)" ]; then

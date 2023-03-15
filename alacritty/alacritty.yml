@@ -17,8 +17,8 @@ window:
 
 font:
   normal:
-    family: SFMono
-  size: 11
+    family: League Mono Narrow
+  size: 10
 
 cursor:
   style: Block
