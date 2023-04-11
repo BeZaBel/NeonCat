@@ -13,12 +13,12 @@ window:
     x: 15 
     y: 15 
   dynamic_padding: true
-  # opacity: 0.94
+  opacity: 0.8
 
 font:
   normal:
     family: Iosevka Nerd Font
-  size: 8
+  size: 9
 
 cursor:
   style: Block
