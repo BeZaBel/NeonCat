@@ -10,15 +10,15 @@ window:
     columns: 100
     lines: 30
   padding:
-    x: 15 
-    y: 15 
+    x: 10 
+    y: 10 
   dynamic_padding: true
   opacity: 0.8
 
 font:
   normal:
     family: Iosevka Nerd Font
-  size: 9
+  size: 8
 
 cursor:
   style: Block
