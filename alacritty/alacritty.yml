@@ -17,7 +17,7 @@ window:
 
 font:
   normal:
-    family: Iosevka Nerd Font
+    family: FiraCode Nerd Font Mono
   size: 8
 
 cursor:
