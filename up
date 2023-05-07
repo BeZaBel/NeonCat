@@ -37,6 +37,11 @@ fi
 
 cp "$SCRIPTPATH/alacritty/alacritty.yml" $ALACRITTYDIR
 
+if [ -x "$(command -v eww)" ]; then
+    eww daemon &
+    eww open top-panel &
+fi
+
 # Boot polybar
 if [ -x "$(command -v polybar)" ]; then
   $SCRIPTPATH/polybar/launch.sh
